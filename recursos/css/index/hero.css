@@ -167,4 +167,8 @@
   .btn-primary::before {
     display: none;
   }
+
+  .btn-primary-conct {
+    display: none;
+  }
 }
