@@ -1,0 +1,184 @@
+ <!-- index.html | Index principal-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MomentosPro | Experiencias Digitales</title>
+  <link rel="icon" href="recursos/media/momentospro_favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="recursos/css/index/base.css">
+  <link rel="stylesheet" href="recursos/css/opciones/menu.css">
+  <link rel="stylesheet" href="recursos/css/opciones/banner.css">
+  <link rel="stylesheet" href="recursos/css/index/header.css">
+  <link rel="stylesheet" href="recursos/css/index/hero.css">
+  <link rel="stylesheet" href="recursos/css/index/secciones.css">
+  <link rel="stylesheet" href="recursos/css/index/secciones-soluciones.css">
+  <link rel="stylesheet" href="recursos/css/index/secciones-contacto.css">
+  <link rel="stylesheet" href="recursos/css/index/footer.css">
+  <style>
+  html, body {
+    background-color: #000000;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+</head>
+<body>
+  <!-- Header | General -->
+  <header class="header">
+    <div class="logo"><img src="recursos/media/index/momentospro_logo.avif"></div>
+    <button id="btn-menu" class="menu-btn no-active">☰</button>
+    <nav class="nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Qué Hacemos</a></li>
+        <li><a href="#vision">Nuestra Visión</a></li>
+        <li><a href="#soluciones">Soluciones</a></li>
+        <li><a href="#contacto">Conecta</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header | Contenedor - Opciones -->
+  <div id="menu-container"></div>
+
+  <!-- Hero | Presentación -->
+  <div id="inicio" class="hero">
+    <h1>Potencia Tu Negocio</h1>
+    <p>Creamos experiencias digitales inolvidables para marcas que buscan presencia y elegancia.</p>
+    <div class="btn-group">
+       <a href="#servicios" class="btn-primary">Ver más</a>
+      <a href="#contacto" class="btn-primary">Contáctanos</a>
+    </div>
+  </div>
+
+
+  <!-- Contenedor general | Envoltorio -->
+  <div class="div-wrapper">
+
+    <!-- Soluciones | Tipo de clientes -->
+    <section id="soluciones" class="section">
+      <h2>Soluciones</h2>
+       <div class="solutions">
+         <div class="solution">
+          <img src="recursos/media/soluciones/momentospro_discotecas.avif"" alt="Discotecas">
+           <h3>Discotecas</h3>
+           <p>Carta modular, galería de eventos y mapa interactivo.</p>
+         </div>
+         <div class="solution">
+           <img src="recursos/media/soluciones/momentospro_restaurantes.avif"" alt="Restaurantes">
+           <h3>Restaurantes</h3>
+           <p>Menú digital, reservas y fotos del espacio.</p>
+         </div>
+         <div class="solution">
+           <img src="recursos/media/soluciones/momentospro_empresascorporativas.avif"" alt="Empresas Corporativas">
+          <h3>Empresas Corporativas</h3>
+          <p>Portal corporativo con módulos de contacto y presentación de equipo.</p>
+        </div>
+       </div>
+    </section>
+  
+    <!-- Servicios | ¿Qué hacemos? -->
+    <section id="servicios" class="section">
+      <h2>Qué Hacemos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="recursos/media/servicios/momentospro_desarrolloweb.avif" alt="Desarrollo Web">
+          <h3>Desarrollo Web Corporativo</h3>
+          <p>Portales web para unidades de negocio con módulos de ubicación, eventos y galería.</p>
+        </div>
+        <div class="card">
+          <img src="recursos/media/servicios/momentospro_carta.avif" alt="Carta Digital">
+          <h3>Cartas Digitales Modulares</h3>
+          <p>Menús interactivos clasificados por productos, adaptados a cada tipo de negocio.</p>
+        </div>
+        <div class="card">
+          <img src="recursos/media/servicios/momentospro_bussinesscard.avif" alt="Business Card QR">
+          <h3>Business Cards QR</h3>
+          <p>Tarjetas digitales para empleados con QR personalizados según su rol o servicio.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visión -->
+    <section id="vision" class="section">
+      <h2>Nuestra Visión</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Claridad</h3>
+          <p>El cliente ve lo que hay, sin confusión ni ruido.</p>
+        </div>
+        <div class="card">
+          <h3>Elegancia</h3>
+          <p>Diseño que inspira confianza y profesionalismo.</p>
+        </div>
+        <div class="card">
+          <h3>Impacto</h3>
+          <p>Experiencia que deja huella y transmite seguridad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section-contacto">
+      <h2>Conecta</h2>
+      <div class="contactos">
+        <div class="contacto">
+          <img src="recursos/media/contacto/momentospro_easc.avif" alt="Foto de contacto">
+          <div class="info">
+            <h3>Exneider Alexis Sandoval Castro</h3>
+            <p class="cargo">Director Técnico | SMK | TS</p>
+            <p>Tu negocio merece una presencia digital a la altura de su experiencia.</p>
+            <a id="btn-whatsapp" class="btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo / Marca -->
+      <div class="footer-brand">
+        <img src="recursos/media/index/momentospro_footer.avif" alt="Logo MomentosPro" class="footer-logo">
+        <div class="brand-text">
+          <p>Creando experiencias digitales únicas</p>
+        </div>
+      </div>
+      <!-- Navegación rápida -->
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#vision">Visión</a></li>
+          <li><a href="#soluciones">Soluciones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Redes sociales -->
+      <div class="footer-social">
+        <a href="https://wa.me/573011529382" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <!-- Derechos reservados -->
+    <div class="footer-bottom">
+      <p>© 2026 MomentosPro · Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts - Recursos -->
+  <script>var basePath = "";</script>
+  <script src="recursos/data/links.js"></script>
+  <script src="recursos/js/index/section.js"></script>
+
+  <!-- Scripts - Opciones -->
+  <script src="recursos/js/opciones/menu/menu_loader.js"></script>
+  <script src="recursos/js/opciones/menu/modules_menu.js"></script>
+  <script src="recursos/js/opciones/banners/banners_loader.js"></script>
+
+</body>
+</html>

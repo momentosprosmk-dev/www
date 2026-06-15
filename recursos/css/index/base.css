@@ -1,0 +1,66 @@
+/*base.css*/
+
+
+/* ================================ CONFIGURACIÓN GENERAL ================================ */
+:root {
+  --header-height: 80px;
+  --logo-height: 50px;
+
+  --section-width: 80%;
+  --section-margin: 60px;
+  --section-padding: 20px 60px 80px;
+  --servicios-border-radius: 12px;
+  --servicios-div-height: 300px;
+
+  --h2-size: 2rem;
+  --h3-size: 1.7rem;
+  --p-size: 1.5rem;
+
+  --dorado: #D4AF37;
+  --negro: #000000;
+  --gris: #F5F5F5;
+  --blanco: #FFFFFF;
+  --fuente: 'Poppins', sans-serif;
+}
+
+
+/* ================================ ESTRUCTURA GENERAL DE ARCHIVO ================================ */
+html {
+  scroll-padding-top: var(--header-height);
+}
+
+body {
+  margin: 0;
+  font-family: var(--fuente);
+  color: var(--blanco);
+  background-color: var(--negro);
+}
+
+h1, h2, h3 {
+  color: var(--dorado);
+}
+
+
+/* ================================ RESPONSIVE ================================ */
+@media (max-width: 1024px) {
+  :root {
+    --header-height: 60px;
+    --logo-height: 40px;
+
+    --section-width: 80%;
+
+    --section-margin: 30px auto;
+    --section-padding: 10px 20px 20px;
+
+    --servicios-div-height: 95%;
+  
+    --h2-size: 1.6rem;
+    --h3-size: 1.4rem;
+    --p-size: 1.2rem;
+  }
+
+  .btn-secondary {
+    font-size: 1.1rem;
+    width: 50%;
+  }
+}
