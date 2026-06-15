@@ -1,7 +1,7 @@
 (function () {
   window.enlaces = {
     
-    "btn-whatsapp": "https://wa.me/573011529382?text=Hola.%20Quiero%20vivir%20una%20experiencia%20en%20La%20Logia.%20%C2%BFMe%20pueden%20orientar%3F"
+    "btn-whatsapp": "https://wa.me/573011529382?text=Hola.%20Quiero%20conocer%20las%20soluciones%20digitales%20de%20MomentosPro.%20%C2%BFMe%20pueden%20orientar%3F"
     
   };
 
